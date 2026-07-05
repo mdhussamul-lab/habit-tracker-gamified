@@ -1,0 +1,15 @@
+{
+  "name": "habit-tracker-gamified",
+  "version": "1.0.0",
+  "description": "A gamified habit tracker with points, streaks, and leaderboards",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["habit", "tracker", "gamification", "points", "leaderboard"],
+  "author": "mdhussamul-lab",
+  "license": "MIT"
+}
